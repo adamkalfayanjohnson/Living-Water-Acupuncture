@@ -1,0 +1,145 @@
+
+
+
+body {
+  display: flex;
+  justify-content: center;
+
+}
+
+.bodycontainer {
+  max-width: 1000px;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+nav {
+
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url("/Users/adamjohnson/Desktop/Acupuncture_web_site/LivingWaterAcupuncture/topbannerimage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+.certification {
+    height: 4.5rem;
+    margin-bottom: 4rem;
+    margin-right: 5rem;
+    width: auto;
+  }
+
+.logo {
+  height: 10rem;
+  width: auto;
+  align-self: center;
+
+}
+
+.schedule {
+  height: 3rem;
+  background-color: #3b91b7;
+  border-radius: 1rem;
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  padding: 1rem 1rem;
+  margin-bottom: 2.5rem;
+  margin-left: 5rem;
+}
+
+
+
+li {
+  display: inline-flex;
+  justify-content: center;
+
+
+  width: 120px;
+  padding: 10px 2px;
+  margin: 3px 3px;
+  background-color: #3b91b7;
+
+}
+
+li a {
+  font-family: Helvetica;
+  font-size: 0.75rem;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+
+
+}
+
+li a:hover {
+  color: #3b91b7;
+  background-color: #ffffff;
+  border: solid;
+}
+
+/* main image */
+
+.content {
+  background-image: url("/Users/adamjohnson/Desktop/Acupuncture_web_site/LivingWaterAcupuncture/wavesonbeach.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 550px;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.mission {
+  background-color: white;
+  opacity: 0.65;
+  width:28rem;
+  border-radius: 1rem;
+  margin-top: 5rem;
+}
+
+.mission h2 {
+  font-family: Helvetica;
+  color: #3b91b7;
+  text-align: center;
+
+}
+
+footer {
+  height: 8rem;
+  background-color: #3b91b7;
+  width: 100%;
+  display: flex;
+}
+
+.footercontent {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.footercontent span {
+  font-family: Helvetica;
+  color: #ffffff;
+  font-size: 0.95rem;
+}
