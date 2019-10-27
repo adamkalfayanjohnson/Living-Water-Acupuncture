@@ -30,6 +30,11 @@ nav {
     background-size: cover;
   }
 
+.topflexbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .certification {
     height: 4.5rem;
@@ -59,7 +64,12 @@ nav {
   margin-left: 5rem;
 }
 
-
+.bottomflexbox {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
 
 li {
   display: inline-flex;
