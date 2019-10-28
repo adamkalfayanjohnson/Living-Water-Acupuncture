@@ -25,7 +25,7 @@ nav {
     align-items: flex-end;
     justify-content: center;
     flex-wrap: wrap;
-    background-image: url("/Users/adamjohnson/Desktop/Acupuncture_web_site/LivingWaterAcupuncture/topbannerimage.png");
+    background-image: url("../images/topbannerimage.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -103,7 +103,7 @@ li a:hover {
 /* main image */
 
 .content {
-  background-image: url("/Users/adamjohnson/Desktop/Acupuncture_web_site/LivingWaterAcupuncture/wavesonbeach.jpg");
+  background-image: url("../images/wavesonbeach.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
