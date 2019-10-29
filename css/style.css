@@ -30,6 +30,10 @@ nav {
     background-size: cover;
   }
 
+img {
+  opacity: 100%;
+}
+
 .topflexbox {
   display: flex;
   justify-content: space-between;
@@ -71,7 +75,7 @@ nav {
   flex-wrap: wrap;
 }
 
-li {
+.menu {
   display: inline-flex;
   justify-content: center;
 
@@ -83,7 +87,7 @@ li {
 
 }
 
-li a {
+.menu a {
   font-family: Helvetica;
   font-size: 0.75rem;
   color: white;
@@ -111,6 +115,16 @@ li a:hover {
   width: 100%;
 }
 
+.contentdrt {
+  background-image: url("../images/foamwashingonbeach.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height:54rem;
+  width: 100%;
+}
+
+
 .container {
   display: flex;
   justify-content: center;
@@ -129,6 +143,55 @@ li a:hover {
   font-family: Helvetica;
   color: #3b91b7;
   text-align: center;
+
+}
+
+.aboutmtilton {
+  background-color: white;
+  /*opacity: 0.65;*/
+  width:36rem;
+  display: inline-flex;
+  flex-direction: column;
+
+}
+
+.headshot {
+  height: 12rem;
+  width: auto;
+  float: left;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+
+}
+
+.aboutmtilton h2 {
+  font-family: Helvetica;
+  color: #3b91b7;
+  padding-right: 2rem;
+  text-align: right;
+  margin: 0;
+  padding-bottom: 0.15;
+  font-size: 1.25rem;
+
+}
+
+
+
+.aboutmtilton span {
+
+  padding-right: 2rem;
+  padding-left: 2rem;
+  margin-top: 3rem;
+}
+
+
+.credentials {
+  padding: 0 0 0 4rem;
+}
+.waveonlylogo {
+  width: 26rem;
+  margin-bottom: 4rem;
+
 
 }
 
