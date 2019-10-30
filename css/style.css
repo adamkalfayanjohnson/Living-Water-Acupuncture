@@ -206,6 +206,7 @@ li a:hover {
   margin-bottom: 4rem;
 }
 
+/*About Medical Acupuncture styles */
 
 .medicalacupuncture {
   background-color: white;
@@ -221,7 +222,10 @@ li a:hover {
   float: left;
   padding-right: 1rem;
   padding-bottom: 1rem;
+}
 
+.alignright {
+  text-align: right;
 }
 
 .medicalacupuncture h2 {
@@ -248,7 +252,7 @@ li a:hover {
   margin-bottom: 0;
 }
 
-.resources {
+#resources {
   padding: 0 0 0 4rem;
   margin-top: 0;
   margin-bottom: 2rem;
