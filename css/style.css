@@ -129,7 +129,7 @@ li a:hover {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height:54rem;
+  height:68rem;
   width: 100%;
 }
 
@@ -228,7 +228,7 @@ li a:hover {
   font-family: Helvetica;
   color: #3b91b7;
   padding-right: 2rem;
-  text-align: right;
+  /*text-align: right;*/
   margin: 0;
   padding-bottom: 0.15;
   font-size: 1.25rem;
@@ -245,11 +245,13 @@ li a:hover {
 
 .waveonlylogo {
   width: 26rem;
-  margin-bottom: 4rem;
+  margin-bottom: 0;
 }
 
 .resources {
   padding: 0 0 0 4rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
 }
 
 
