@@ -104,7 +104,7 @@ li a:hover {
   border: solid;
 }
 
-/* main image */
+/* main background images */
 
 .content {
   background-image: url("../images/wavesonbeach.jpg");
@@ -124,12 +124,23 @@ li a:hover {
   width: 100%;
 }
 
+.contentmedacu {
+  background-image: url("../images/breakingwaves.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height:54rem;
+  width: 100%;
+}
+
 
 .container {
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
+
+/*Home page styles */
 
 .mission {
   background-color: white;
@@ -145,6 +156,8 @@ li a:hover {
   text-align: center;
 
 }
+
+/*About Dr Tilton styles*/
 
 .aboutmtilton {
   background-color: white;
@@ -191,9 +204,54 @@ li a:hover {
 .waveonlylogo {
   width: 26rem;
   margin-bottom: 4rem;
+}
 
+
+.medicalacupuncture {
+  background-color: white;
+  width:36rem;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+
+.dryneedle {
+  height: 12rem;
+  width: auto;
+  float: left;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
 
 }
+
+.medicalacupuncture h2 {
+  font-family: Helvetica;
+  color: #3b91b7;
+  padding-right: 2rem;
+  text-align: right;
+  margin: 0;
+  padding-bottom: 0.15;
+  font-size: 1.25rem;
+
+}
+
+
+.medicalacupuncture span {
+
+  padding-right: 2rem;
+  padding-left: 2rem;
+  margin-top: 3rem;
+}
+
+.waveonlylogo {
+  width: 26rem;
+  margin-bottom: 4rem;
+}
+
+.resources {
+  padding: 0 0 0 4rem;
+}
+
 
 footer {
   height: 8rem;
