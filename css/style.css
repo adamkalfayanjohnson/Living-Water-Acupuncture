@@ -131,7 +131,7 @@ li a:hover {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height:54rem;
+  height:62rem;
   width: 100%;
 }
 
@@ -141,6 +141,15 @@ li a:hover {
   background-position: center;
   background-repeat: no-repeat;
   height:76rem;
+  width: 100%;
+}
+
+.contentfeesandservices {
+  background-image: url("../images/feesandservices.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height:46rem;
   width: 100%;
 }
 
@@ -235,19 +244,15 @@ li a:hover {
   padding-bottom: 1rem;
 }
 
-.alignright {
-  text-align: right;
-}
 
 .medicalacupuncture h2 {
   font-family: Helvetica;
   color: #3b91b7;
-  padding-right: 2rem;
-  /*text-align: right;*/
+  padding-right: 3rem;
+  text-align: right;
   margin: 0;
   padding-bottom: 0.15;
   font-size: 1.25rem;
-
 }
 
 
@@ -268,6 +273,51 @@ li a:hover {
   margin-top: 0;
   margin-bottom: 2rem;
 }
+
+/*fees and services*/
+
+.feesandservices {
+  background-color: white;
+  /*opacity: 0.65;*/
+  width:36rem;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.healingartsfees {
+  height: auto;
+  width: 12rem;
+  float: left;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.Wellfleetservice {
+  height: 12rem;
+  width: auto;
+  float: right;
+  padding-right: 0rem;
+  padding-bottom: 1rem;
+}
+
+.feesandservices h3{
+  font-family: Helvetica;
+  color: #3b91b7;
+  padding-right: 0rem;
+  text-align: right;
+  margin: 0;
+  padding-bottom: 0.15;
+  font-size: 1.25rem;
+}
+
+.feesandservices span {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  margin-top: 3rem;
+
+}
+
+
 
 
 footer {
