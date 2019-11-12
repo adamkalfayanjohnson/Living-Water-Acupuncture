@@ -325,6 +325,40 @@ li a:hover {
 
 }
 
+/*schedule an appointment*/
+
+.scheduleappt {
+  background-color: white;
+  /*opacity: 0.65;*/
+  width:36rem;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.scheduleappt h2 {
+  font-family: Helvetica;
+  color: #3b91b7;
+  padding-right: 2rem;
+  text-align: right;
+  margin: 2rem 2rem;
+  padding-bottom: 0.15;
+  font-size: 1.25rem;
+}
+
+
+img.HACoffice {
+  height: auto;
+  width: 14rem;
+  margin: 2rem 1.25rem;
+
+}
+
+img.HACtable2 {
+  height: auto;
+  width: 14rem;
+  margin: 2rem 1.25rem;
+
+}
 
 
 
