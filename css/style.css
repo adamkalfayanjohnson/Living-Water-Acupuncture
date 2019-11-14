@@ -153,6 +153,15 @@ li a:hover {
   width: 100%;
 }
 
+.contentschedule {
+  background-image: url("../images/foamwashingonbeach.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height:42rem;
+  width: 100%;
+}
+
 
 .container {
   display: flex;
@@ -182,19 +191,18 @@ li a:hover {
 .aboutmtilton {
   background-color: white;
   /*opacity: 0.65;*/
-  width:36rem;
+  width:39rem;
   display: inline-flex;
   flex-direction: column;
 
 }
 
 .headshot {
-  height: 12rem;
+  height: 10rem;
   width: auto;
   float: left;
   padding-right: 1rem;
-  padding-bottom: 1rem;
-
+  padding-bottom: 0.5rem;
 }
 
 .aboutmtilton h2 {
@@ -205,7 +213,7 @@ li a:hover {
   margin: 0;
   padding-bottom: 0.15;
   font-size: 1.25rem;
-
+  display: inline;
 }
 
 
@@ -219,10 +227,10 @@ li a:hover {
 
 
 .credentials {
-  padding: 0 0 0 4rem;
+  padding: 0 2rem 0 4rem;
 }
 .waveonlylogo {
-  width: 26rem;
+  width: 32rem;
   margin-bottom: 4rem;
 }
 
@@ -237,11 +245,11 @@ li a:hover {
 
 
 .dryneedle {
-  height: 12rem;
+  height: 10rem;
   width: auto;
   float: left;
   padding-right: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 
@@ -253,6 +261,7 @@ li a:hover {
   margin: 0;
   padding-bottom: 0.15;
   font-size: 1.25rem;
+  display: inline;
 }
 
 
@@ -263,10 +272,7 @@ li a:hover {
   margin-top: 3rem;
 }
 
-.waveonlylogo {
-  width: 26rem;
-  margin-bottom: 0;
-}
+
 
 #resources {
   padding: 0 0 0 4rem;
@@ -297,18 +303,18 @@ li a:hover {
   width: 12rem;
   float: left;
   padding-right: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5remrem;
 }
 
-.Wellfleetservice {
+/*.Wellfleetservice {
   height: 12rem;
   width: auto;
   float: right;
   padding-right: 0rem;
-  padding-bottom: 1rem;
-}
+  padding-bottom: 0.5rem;
+}*/
 
-.feesandservices h3{
+.feesandservices h3 {
   font-family: Helvetica;
   color: #3b91b7;
   padding-right: 0rem;
@@ -316,6 +322,7 @@ li a:hover {
   margin: 0;
   padding-bottom: 0.15;
   font-size: 1.25rem;
+  display: inline;
 }
 
 .feesandservices span {
@@ -338,19 +345,27 @@ li a:hover {
 .scheduleappt h2 {
   font-family: Helvetica;
   color: #3b91b7;
-  padding-right: 2rem;
+  padding-right: 3rem;
   text-align: right;
-  margin: 2rem 2rem;
+  margin: 0;
   padding-bottom: 0.15;
   font-size: 1.25rem;
+  display: inline;
 }
 
+.scheduleappt span {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  margin-top: 3rem;
 
-img.HACoffice {
-  height: auto;
-  width: 12rem;
-  margin: 2rem 1.25rem;
+}
 
+.HACoffice {
+    height: auto;
+    width: 12rem;
+    float: left;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
 }
 
 img.HACtable2 {
