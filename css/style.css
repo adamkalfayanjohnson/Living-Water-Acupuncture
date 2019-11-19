@@ -393,12 +393,27 @@ img.HACtable2 {
   margin: 2rem 1.25rem;
 }
 
-iframe {
+.orleansdirections {
+  display: block;
+  width: 15.25rem;
+}
+
+.orleansdirections a {
+  margin-left: 3rem;
+  margin-bottom: 0rem;
+}
+
+.orleansmap {
   width: 14rem;
   height: 10rem;
-  margin: 0.5rem 0.25rem 2rem 13rem;
+  margin: 1rem 1.25rem 2rem 0rem;
+  border: 0;
+}
 
-
+.wellfleetmap {
+  width: 14rem;
+  height: 10rem;
+  margin: 1rem 1.25rem 2rem 0rem;
 }
 
 
