@@ -365,55 +365,76 @@ h1 {
   display: inline;
 }
 
-.scheduleappt span {
-  padding-right: 2rem;
-  padding-left: 2rem;
-  margin-top: 3rem;
+.orleansflexcontainer {
+  display: inline-flex;
 
+
+}
+
+.orleansleftcolumn {
+  display: flex;
+  flex-direction: column;
+  width: 21rem;
+  margin: 2rem 0rem 2rem 1rem;
+}
+
+.orleansleftcolumn h2 {
+  text-align: left;
+
+}
+
+.orleansrightcolumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 14rem;
+  margin: 2rem 1rem 2rem 0rem;
+  align-items: center;
 }
 
 .HACoffice {
     height: auto;
     width: 12rem;
-    float: left;
     padding-right: 1rem;
     padding-bottom: 0.5rem;
 }
 
+.wellfleetflexcontainer {
+  display: inline-flex;
+}
+
+.wellfleetleftcolumn {
+  display: flex;
+  flex-direction: column;
+  width: 21rem;
+  margin: 2rem 0rem 2rem 1rem;
+
+}
+
+.wellfleetrightcolumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 14rem;
+  margin: 2rem 1rem 2rem 0rem;
+  align-items: center;
+}
+
+
 .Church {
   height: auto;
   width: 10rem;
-  float: right;
   padding-right: 1rem;
 }
 
-img.HACtable2 {
-  height: auto;
-  width: 14rem;
-  margin: 2rem 1.25rem;
-}
-
-.orleansdirections {
-  display: block;
-  width: 15.25rem;
-}
-
-.orleansdirections a {
-  margin-left: 3rem;
-  margin-bottom: 0rem;
-}
 
 .orleansmap {
-  width: 14rem;
+  width: 12rem;
   height: 10rem;
-  margin: 1rem 1.25rem 2rem 0rem;
-  border: 0;
 }
-
 .wellfleetmap {
-  width: 14rem;
+  width: 12rem;
   height: 10rem;
-  margin: 1rem 1.25rem 2rem 0rem;
 }
 
 
