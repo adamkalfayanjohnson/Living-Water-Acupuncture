@@ -404,12 +404,10 @@ h1 {
 }
 
 .wellfleetleftcolumn {
-  display: flex;
-  flex-direction: column;
   width: 21rem;
-  margin: 2rem 0rem 2rem 1rem;
-
 }
+
+
 
 .wellfleetrightcolumn {
   display: flex;
@@ -424,7 +422,8 @@ h1 {
 .Church {
   height: auto;
   width: 10rem;
-  padding-right: 1rem;
+
+
 }
 
 
