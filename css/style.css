@@ -419,8 +419,9 @@ h1 {
 .orleansmap {
   width: 16rem;
   height: 10rem;
-  margin: 1rem 1rem;
+  margin: 1rem 2rem 1rem 1rem;
 }
+
 .wellfleetmap {
   width: 16rem;
   height: 10rem;
@@ -444,23 +445,72 @@ h1 {
 
 
 footer {
-  height: 8rem;
+  height: 12rem;
   background-color: #3b91b7;
   width: 100%;
   display: flex;
-}
-
-.footercontent {
-  display: flex;
-  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  align-content: center;
 }
 
-.footercontent span {
+/*.footercontent {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}*/
+
+.footercontent1 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+}
+
+.footercontent2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.footercontent1 span {
+  font-family: Helvetica;
+  color: #ffffff;
+  font-size: 1.50rem;
+}
+
+.footerwellfleet {
+  color: #ffffff;
+  font-size: 0.95rem;
+  text-align: left;
+  margin: 0.5rem 0rem 0.5rem 1rem;
+}
+
+.footerorleans {
+  color: #ffffff;
+  font-size: 0.95rem;
+  text-align: right;
+  margin: 0.5rem 1rem 0.5rem 0rem;
+}
+
+.footerphone {
+  color: #ffffff;
+  font-size: 0.95rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #ffffff;
+  font-size: 0.75rem;
+  margin-top: 3rem 3rem;
+  padding-top: 1rem;
+}
+
+/*.footercontent span {
   font-family: Helvetica;
   color: #ffffff;
   font-size: 0.95rem;
-}
+}*/
