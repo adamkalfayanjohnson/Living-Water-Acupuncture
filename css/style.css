@@ -367,8 +367,14 @@ h1 {
 }
 
 .orleansleftcolumn h2 {
+  font-family: Helvetica;
+  color: #3b91b7;
+  padding-right: 3rem;
   text-align: left;
-
+  margin: 0;
+  padding-bottom: 0.15;
+  font-size: 1.25rem;
+  display: inline;
 }
 
 .orleansrightcolumn {
@@ -391,10 +397,21 @@ h1 {
   display: inline-flex;
 }
 
+.wellfleetleftcolumn h2 {
+  font-family: Helvetica;
+  color: #3b91b7;
+  padding-right: 3rem;
+  text-align: left;
+  margin: 0.25;
+  padding-bottom: 0.55;
+  font-size: 1.25rem;
+  display: inline;
+}
+
 .wellfleetleftcolumn {
   width: 21rem;
   margin: 0rem 0rem 2rem 1rem;
-
+  padding-top: 0;
 }
 
 
